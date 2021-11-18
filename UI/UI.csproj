@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="unnamed.jpg" />
+    <None Remove="_RuPnCQDNqQ4545.jpg" />
+    <None Remove="Без имени-3.jpg" />
+    <None Remove="Новый точечный рисунок.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ParseLib\ParseLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="unnamed.jpg" />
+    <Resource Include="_RuPnCQDNqQ4545.jpg" />
+    <Resource Include="Без имени-3.jpg" />
+    <Resource Include="Новый точечный рисунок.png" />
+  </ItemGroup>
+
+</Project>

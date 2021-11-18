@@ -1,0 +1,17 @@
+﻿<Window x:Class="UI.SecondTaskForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="SecondTaskForm" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="ParsingTextBox" HorizontalAlignment="Left" Margin="27,22,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="576" Height="387"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="663,263,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="StartButton_Click"/>
+        <Button x:Name="AbortButton" Content="Abort" HorizontalAlignment="Left" Margin="663,332,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="AbortButton_Click"/>
+        <TextBox x:Name="CategoryTextBox" HorizontalAlignment="Center" Margin="0,77,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="747" Height="33"/>
+        <Button x:Name="StartArtButton" Content="Show Art" HorizontalAlignment="Left" Margin="670,126,0,0" VerticalAlignment="Top" Width="62" Height="20" Click="StartArtButton_Click" />
+
+    </Grid>
+</Window>

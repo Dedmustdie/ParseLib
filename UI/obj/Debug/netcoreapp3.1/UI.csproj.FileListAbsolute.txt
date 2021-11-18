@@ -1,0 +1,82 @@
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Kensein\source\repos\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.csproj.AssemblyReference.cache
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.deps.json
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.runtimeconfig.json
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.runtimeconfig.dev.json
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.exe
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\AngleSharp.dll
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.dll
+C:\Users\Kensein\source\repos\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.pdb
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.deps.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.runtimeconfig.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.runtimeconfig.dev.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.exe
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.exe
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.runtimeconfig.dev.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\AngleSharp.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ParseLib.pdb
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.csproj.AssemblyReference.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI_MarkupCompile.lref
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.g.resources
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.pdb
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\StartForm.g.cs
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\StartForm.baml
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\FirstTaskForm.g.cs
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\FirstTaskForm.baml
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\Xceed.Wpf.AvalonDock.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\Xceed.Wpf.Toolkit.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\SecondTaskForm.g.cs
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\SecondTaskForm.baml
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete

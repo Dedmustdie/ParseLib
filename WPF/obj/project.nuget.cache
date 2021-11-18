@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sudMKBLZn4tSR7L5TmlBx4cLnpJKBCF/acVMtFpg/TqkVJBhxiYB2KtTB3Jkde9HaUvhQjfYN9B/mgq3284t2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kensein\\source\\repos\\Практика 1\\ParseLib\\WPF\\WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kensein\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

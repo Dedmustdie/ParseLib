@@ -1,0 +1,36 @@
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.exe
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.deps.json
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.runtimeconfig.json
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.runtimeconfig.dev.json
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.dll
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.pdb
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\AngleSharp.dll
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.AssemblyInfoInputs.cache
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.AssemblyInfo.cs
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.csproj.CoreCompileInputs.cache
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.dll
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.pdb
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.genruntimeconfig.cache
+C:\Users\Kensein\source\repos\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.csproj.AssemblyReference.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.exe
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.deps.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.runtimeconfig.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.runtimeconfig.dev.json
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\ParseLib.pdb
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\AngleSharp.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.AssemblyInfoInputs.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.AssemblyInfo.cs
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.csproj.CoreCompileInputs.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.pdb
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.genruntimeconfig.cache
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\ParseLib\obj\Debug\netcoreapp3.1\ParseLib.csproj.AssemblyReference.cache
