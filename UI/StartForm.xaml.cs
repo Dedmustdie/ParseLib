@@ -35,7 +35,8 @@ namespace UI
 
         private void ThirdTaskButton_Click(object sender, RoutedEventArgs e)
         {
-
+            ThirdTaskForm FTF = new ThirdTaskForm();
+            FTF.Show();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

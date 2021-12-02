@@ -8,24 +8,16 @@ namespace ParseLib.Core.YandexParser
     public class YandexParserWorker
     {
         YandexParser parser;
-        YandexSettings parserSettings;
+        YandexParserSettings parserSettings;
         YandexHtmlLoader loader;
-        bool isActive;
         public YandexParserWorker(YandexParser parser)
         {
             this.parser = parser;
         }
-        public YandexParserWorker(YandexParser parser, YandexSettings parserSettings)
+        public YandexParserWorker(YandexParser parser, YandexParserSettings parserSettings)
         {
             this.parser = parser;
             this.parserSettings = parserSettings;
-        }
-        public bool IsActive
-        {
-            get
-            {
-                return isActive;
-            }
         }
         public YandexParser Parser
         {
@@ -39,7 +31,7 @@ namespace ParseLib.Core.YandexParser
             }
         }
 
-        public YandexSettings Settings
+        public YandexParserSettings Settings
         {
             get
             {
@@ -54,20 +46,16 @@ namespace ParseLib.Core.YandexParser
 
         public void StartCategoriesWorker()
         {
-            isActive = true;
             CategoriesWorker();
         }
         public void StartArticlesWorker()
         {
-            isActive = true;
             ArticleWorker();
         }
 
-        public void Abort()
-        {
-            isActive = false;
-        }
-        public event Action<object, List<string>> OnNewData;
+
+        public event Action<object, List<List<string>>> OnNewDataArticles;
+        public event Action<object, List<string>> OnNewDataCategory;
         public event Action<object> OnCompleted;
 
         private async void CategoriesWorker()
@@ -81,9 +69,8 @@ namespace ParseLib.Core.YandexParser
             // запустить парсинг для получения заголовков  
             var result = parser.ParseCategory(document);
             // вызвать событие, связанное с получением данных 
-            OnNewData?.Invoke(this, result);
+            OnNewDataCategory?.Invoke(this, result);
             OnCompleted?.Invoke(this);
-            isActive = false;
         }
 
         private async void ArticleWorker()
@@ -94,15 +81,24 @@ namespace ParseLib.Core.YandexParser
             var htmlParser = new HtmlParser();
             // получить документ (из библиотеки AngleSharp) для парсинга  
             var document = await htmlParser.ParseDocumentAsync(source);
-            // запустить парсинг для получения заголовков  
+            // парсим ссылку на страницу выбранной категории
             string hrefOfCategory = parser.ParseHrefOfCategory(document, Settings.Category);
-            var sourceArticles = await loader.GetHtmlByCategory(hrefOfCategory);
-            var documentArticles = await htmlParser.ParseDocumentAsync(sourceArticles);
-            var result = parser.ParseArticles(documentArticles);
+            // получение кода страницы
+            var sourceOfCategory = await loader.GetHtmlByHref(hrefOfCategory);
+            // документ страницы категории
+            var documentOfCategory = await htmlParser.ParseDocumentAsync(sourceOfCategory);
+            // парсим все ссылки на статьи на странице категории
+            var hrefOfArtclesList = parser.ParseHrefOfArticles(documentOfCategory);
+            List<List<string>> result = new List<List<string>>();
+            foreach (var href in hrefOfArtclesList)
+            {
+                var sourceOfArticle = await loader.GetHtmlByHref(href);
+                var documentOfArticle = await htmlParser.ParseDocumentAsync(sourceOfArticle);
+                result.Add(parser.ParseArticles(documentOfArticle));
+            }
             // вызвать событие, связанное с получением данных 
-            OnNewData?.Invoke(this, result);
+            OnNewDataArticles?.Invoke(this, result);
             OnCompleted?.Invoke(this);
-            isActive = false;
         }
     }
 }

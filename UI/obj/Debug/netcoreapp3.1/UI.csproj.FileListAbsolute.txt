@@ -79,4 +79,7 @@ C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreap
 C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\SecondTaskForm.g.cs
 C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\SecondTaskForm.baml
-C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\ThirdTaskForm.g.cs
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\obj\Debug\netcoreapp3.1\ThirdTaskForm.baml
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.dll
+C:\Users\Kensein\source\repos\Практика 1\ParseLib\UI\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.Shell.dll

@@ -4,12 +4,12 @@ using System.Text;
 
 namespace ParseLib.Core.HabrParser
 {
-    public class iKnigiSettings : IiKnigiParserSettings
+    public class iKnigiParserSettings : IiKnigiParserSettings
     {
         public int StartPoint { get; set; }
         public int EndPoint { get; set; }
         public int CurrentId { get; set; }
-        public iKnigiSettings(int StartPoint, int EndPoint)
+        public iKnigiParserSettings(int StartPoint, int EndPoint)
         {
             this.StartPoint = StartPoint;
             this.EndPoint = EndPoint;

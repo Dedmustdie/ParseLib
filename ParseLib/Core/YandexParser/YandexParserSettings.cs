@@ -4,13 +4,14 @@ using System.Text;
 
 namespace ParseLib.Core.YandexParser
 {
-    public class YandexSettings
+    public class YandexParserSettings
     {
-        public YandexSettings(string Category)
+        public YandexParserSettings(string Category)
         {
             this.Category = Category;
         }
         public string BaseUrl { get; set; } = "https://market.yandex.ru/journal";
         public string Category { get; set; }
+
     }
 }

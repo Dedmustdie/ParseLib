@@ -6,15 +6,15 @@
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:local="clr-namespace:UI"
         mc:Ignorable="d"
-        Title="FirstTaskForm" Height="450" Width="800">
+        Title="FirstTaskForm" Height="467" Width="800">
     <Grid Height="450" Width="800">
-        <xctk:IntegerUpDown Name="StartPageIntBox" Margin="623,53,57,367" CultureInfo="ru-RU" Width="120" Height="30"/>
-        <xctk:IntegerUpDown x:Name="EndPageIntBox" Margin="623,143,57,277" CultureInfo="ru-RU" Width="120" Height="30"/>
         <TextBox x:Name="ParsingTextBox" HorizontalAlignment="Left" Margin="27,22,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="576" Height="387"/>
         <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="663,263,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="Button_Click"/>
         <Button x:Name="AbortButton" Content="Abort" HorizontalAlignment="Left" Margin="663,332,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="AbortButton_Click"/>
         <Label Content="Start page" HorizontalAlignment="Left" Margin="651,22,0,0" VerticalAlignment="Top"/>
         <Label Content="End page" HorizontalAlignment="Left" Margin="651,112,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="StartPageTextBox" PreviewTextInput="StartPageTextBox_PreviewTextInput"  HorizontalAlignment="Left" Margin="623,59,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="EndPageTextBox" PreviewTextInput="EndPageTextBox_PreviewTextInput"  HorizontalAlignment="Left" Margin="623,149,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

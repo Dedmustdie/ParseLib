@@ -34,7 +34,7 @@
             <TextBlock TextAlignment="Center" Width="144" FontSize="16" FontWeight="Bold" FontStyle="Normal" TextDecorations="{x:Null}" FontFamily="Calibri">
                 <TextBlock.Background>
                     <ImageBrush/>
-                </TextBlock.Background>Собрать отзывы<LineBreak/>на книги c <LineBreak/>iknigi.net</TextBlock>
+                </TextBlock.Background>Скачать картинки<LineBreak/>на какую-то тему</TextBlock>
         </Button>
 
         <Button Grid.Column="3" Grid.Row="1"   Width="150" HorizontalAlignment="Center" Margin="0,108,0,108" Grid.RowSpan="3" Click="Button_Click">

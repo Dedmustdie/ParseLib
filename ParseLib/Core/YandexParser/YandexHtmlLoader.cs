@@ -11,12 +11,11 @@ namespace ParseLib.Core.YandexParser
     {
         readonly HttpClient client;
         readonly string url;
-        public YandexHtmlLoader(YandexSettings settings)
+        public YandexHtmlLoader(YandexParserSettings settings)
         {
             client = new HttpClient();
             url = settings.BaseUrl;
         }
-
         public async Task<string> GetHtml()
         {
             // получение ответа на асинхронный запрос запрос get по ссылке 
@@ -30,10 +29,10 @@ namespace ParseLib.Core.YandexParser
             }
             return source;
         }
-        public async Task<string> GetHtmlByCategory(string href)
+        public async Task<string> GetHtmlByHref(string href)
         {
             // получение ответа на асинхронный запрос запрос get по ссылке  
-            var response = await client.GetAsync($"{url}+{href}");
+            var response = await client.GetAsync($"{url}{href}");
             string source = null;
             // проверка на null и статус ответа 
             if (response != null && response.StatusCode == HttpStatusCode.OK)

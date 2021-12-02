@@ -44,10 +44,10 @@ namespace UI
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ParsingTextBox.Text = "";           
-            int start = int.Parse(StartPageIntBox.Text);
-            int end = int.Parse(EndPageIntBox.Text);
-            parser.Settings = new iKnigiSettings(start, end);
+            ParsingTextBox.Text = "";
+            int start = int.Parse(StartPageTextBox.Text);
+            int end = int.Parse(EndPageTextBox.Text);
+            parser.Settings = new iKnigiParserSettings(start, end);
             parser.Start();
 
         }
@@ -55,6 +55,50 @@ namespace UI
         private void AbortButton_Click(object sender, RoutedEventArgs e)
         {
             parser.Abort();
+        }
+
+        private void StartPageTextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!Char.IsDigit(e.Text, 0))
+            {
+                e.Handled = true;
+            }
+            if (StartPageTextBox.Text.Length > 0)
+            {
+                if (Convert.ToInt32(StartPageTextBox.Text[0].ToString()) != 0)
+                {
+                    e.Handled = true;
+                }
+            }
+            if (EndPageTextBox.Text.Length > 0)
+            {
+                if (e.Text[0] > Convert.ToInt32(EndPageTextBox.Text[0]))
+                {
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void EndPageTextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!Char.IsDigit(e.Text, 0))
+            {
+                e.Handled = true;
+            }
+            if (EndPageTextBox.Text.Length > 0)
+            {
+                if (Convert.ToInt32(EndPageTextBox.Text[0].ToString()) != 0)
+                {
+                    e.Handled = true;
+                }
+            }
+            if (StartPageTextBox.Text.Length > 0)
+            {
+                if (e.Text[0] < Convert.ToInt32(StartPageTextBox.Text[0]))
+                {
+                    e.Handled = true;
+                }
+            }
         }
     }
 }

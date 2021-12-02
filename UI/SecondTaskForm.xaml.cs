@@ -23,39 +23,44 @@ namespace UI
             InitializeComponent();
             parser = new YandexParserWorker(new YandexParser());
             parser.OnCompleted += parser_OnCompleted;
-            parser.OnNewData += parser_OnNewData;
+            parser.OnNewDataArticles += parser_OnNewData;
+            parser.OnNewDataCategory += parser_OnNewData2;
         }
+
         private void parser_OnCompleted(object sender)
         {
             ParsingTextBox.Text += "Парсинг завершен!";
         }
-        private void parser_OnNewData(object sender, List<string> args)
+        private void parser_OnNewData2(object sender, List<string> args)
         {
             foreach (string item in args)
             {
                 ParsingTextBox.Text += item + "\n";
             }
         }
-        
-       
-        private void AbortButton_Click(object sender, RoutedEventArgs e)
+        private void parser_OnNewData(object sender, List<List<string>> args)
         {
-            
+            foreach (List<string> item in args)
+            {
+                foreach (string item2 in item)
+                {
+                    ParsingTextBox.Text += item2 + "\n";
+                }
+            }
         }
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             ParsingTextBox.Text = "";
-            parser.Settings = new YandexSettings(CategoryTextBox.Text);
-            //parser.StartCategoriesWorker();
+            parser.Settings = new YandexParserSettings(CategoryTextBox.Text);
             parser.StartArticlesWorker();
         }
 
-        private void StartArtButton_Click(object sender, RoutedEventArgs e)
+        private void StartCategoryButton_Click(object sender, RoutedEventArgs e)
         {
             ParsingTextBox.Text = "";
-            parser.Settings = new YandexSettings(CategoryTextBox.Text);
-            parser.StartArticlesWorker();
+            parser.Settings = new YandexParserSettings(CategoryTextBox.Text);
+            parser.StartCategoriesWorker();
         }
     }
 }

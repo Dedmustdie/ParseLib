@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="UI.ThirdTaskForm"
+        mc:Ignorable="d"
+        Title="ThirdTaskForm" ResizeMode="NoResize" Height="381" Width="590"  >
+    <Grid>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Center" Margin="0,311,0,0" VerticalAlignment="Top" Width="40" Height="20" Click="StartButton_Click"/>
+        <TextBox x:Name="SubjectTextBox" HorizontalAlignment="Left" Margin="21,102,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="256" Height="26" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="Введите запрос:" HorizontalAlignment="Left" Margin="100,62,0,0" VerticalAlignment="Top"/>
+        <Label Content="Укажите путь для скачивания картинок:" HorizontalAlignment="Left" Margin="35,23,0,0" VerticalAlignment="Top"/>
+        <Label Content="Сколько картинок попробывать скачать:" HorizontalAlignment="Left" Margin="323,62,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="StatusListBox" Height="149" VerticalAlignment="Top" Margin="21,147,19,0"/>
+        <TextBox x:Name="CountTextBox" PreviewTextInput="textBox_PreviewTextInput" HorizontalAlignment="Left" Margin="407,102,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="67" Height="26" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="PathButton" Content="Указать путь" HorizontalAlignment="Left" Margin="275,26,0,0" VerticalAlignment="Top" Click="PathButton_Click"/>
+    </Grid>
+</Window>
